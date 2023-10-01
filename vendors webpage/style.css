@@ -1,0 +1,219 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+#image{
+    width:150px;
+    height: 100px;
+}
+#header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background: #E3E6F3;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.06);
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    padding-right: 80px;
+}
+#navbar li{
+    list-style: none;
+    padding: 0 30px;
+    font-family: cursive;
+    scroll-behavior:smooth ;
+}
+#navbar li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1a1a1a;
+    scroll-behavior: smooth;
+}
+#navbar li a:hover{
+    color: green;
+    scroll-behavior: smooth;
+    
+}
+form{
+    background: #989898;
+    width: 280px;
+    height: 400px;
+    padding-left: 50px ;
+    padding-top: 20px;
+    margin-left: 100px;
+    margin-top: 20px;
+    border-radius: 25px;
+    
+}
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.col1{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+h1{
+    padding-left: 20px;
+    margin: 45px;
+    color: antiquewhite;
+    font-family:cursive;
+}
+form{
+    margin-top: 100px;
+    margin-left: 140px;
+}
+.textbox{
+    position: relative;
+    margin: 35px 0;
+}
+.textbox input{
+    border-bottom: 20px solid white;
+    background: none;
+    border: none;
+    outline: none;
+    width: 100;
+    padding-left: 70px;
+    font-family: cursive;
+}
+.textbox:hover{
+    border-bottom: 2px solid white;
+    width:200px;
+}
+.login{
+    width: 200px;
+    height: 30px;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    margin-left: 0px;
+    background-color: antiquewhite;
+    margin-bottom: 20px;
+    font-family:cursive;
+    font-weight: 600;
+}
+.login:hover{
+    transform: scale(1.1);
+}
+.signup{
+    color: white;
+    margin-top: 20px;
+    padding-left: 30px;
+    font-family: cursive;
+}
+.signup a{
+    color: black;
+    padding-left: 45px;
+    text-decoration: none;
+}
+#main{
+    background-image: url(WhatsApp\ Image\ 2023-09-30\ at\ 10.29.07.jpeg);
+}
+body{
+    background-image: url(WhatsApp\ Image\ 2023-09-30\ at\ 10.29.07.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.image{
+    padding-left: 50px;
+    padding-top: 50px;
+}
+.product{
+    padding-left: 100px;
+}
+.image:hover{
+    transform: scale(1.1);
+}
+.home-sci a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border:2px solid #081b29;
+    border-radius: 50%;
+    color: #081b29;
+    text-decoration: none;
+    margin: -100px 10px 30px 0px;
+    margin-top: 20px;
+}
+.home-sci a:hover{
+    background:#081b29;
+    color:#0ef;
+    box-shadow: 0px 0px 70px #0ef;
+}
+.footer{
+    margin-left: 500px;
+}
+.contact_a{
+    color: #fff;
+    background-color: black;
+    scroll-behavior: smooth;
+}
+.contactform{
+    width: 40%;
+    padding: 40px;
+    color: #fff;
+    background-color: black;
+    scroll-behavior: smooth;
+}
+.contactform h2{
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+}
+.inputclass{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+.inputclass input,
+.inputclass textarea{
+     width: 100%;
+     padding: 5px 0;
+     font-size: 16px;
+     margin: 10px 0;
+     border: none;
+     border-bottom: 2px solid #333;
+     outline: none;
+     resize: none;
+     color: #fff;
+}
+.inputclass span{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+}
+.inputclass input:focus ~span,
+.inputclass input:valid ~span,
+.inputclass textarea:focus ~span,
+.inputclass textarea:valid ~span{
+    color: #e91e63;
+    font-size: 12px;
+    transform: translate(-12px);
+}
+.inputbox input{
+    width: 100%;
+    background-color: #00bcd4;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
+.iconinfo{
+    padding: 15px;
+    display: inline;
+}
